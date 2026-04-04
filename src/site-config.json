@@ -1,0 +1,492 @@
+{
+  "business": {
+    "name": "Onyx Bath Remodel",
+    "phone": "555-bat-r93",
+    "category": "bath-remodel",
+    "city": "Boston",
+    "state": "MA"
+  },
+  "design": {
+    "preset": {
+      "id": "bath-remodel-dark-premium",
+      "categoryGroup": "bath-remodel",
+      "name": "Dark Premium",
+      "recipeFile": "bath-remodel/dark-premium.astro",
+      "colors": {
+        "primary": "#22D3EE",
+        "primaryDark": "#1ba9be",
+        "primaryLight": "#a7edf8",
+        "secondary": "#2A2A2A",
+        "accent": "#43daf1",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "bath-remodel/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Transform Your Boston Bathroom",
+      "heroSubline": "Expert bath remodeling for historic brownstones and modern homes. Serving Cambridge to Quincy with climate-smart solutions.",
+      "aboutTitle": "Crafting Bathrooms That Last",
+      "aboutText": [
+        "Founded in 2011, Onyx Bath Remodel brings precision craftsmanship to Boston's diverse architecture. We specialize in preserving historic charm while integrating modern functionality.",
+        "Our approach combines New England practicality with design sophistication. Every tile, fixture, and finish is selected to withstand humid summers and freeze-thaw winters.",
+        "We're proud to support local tradespeople and source materials from New England suppliers whenever possible."
+      ],
+      "valueProps": [
+        {
+          "title": "Freeze-Thaw Experts",
+          "description": "Specialized waterproofing techniques prevent winter damage in Boston's harsh climate"
+        },
+        {
+          "title": "Historic Sensitivity",
+          "description": "Skilled at preserving original details in Back Bay brownstones and Victorian homes"
+        },
+        {
+          "title": "Salt-Air Solutions",
+          "description": "Corrosion-resistant materials for coastal Quincy and waterfront properties"
+        },
+        {
+          "title": "Permit Navigators",
+          "description": "Full handling of Boston historic district approvals and Cambridge zoning requirements"
+        }
+      ],
+      "ctaHeadline": "Ready for Your Dream Bathroom?",
+      "ctaSubline": "Schedule a free consultation with our Boston remodeling specialists today."
+    },
+    "services": [
+      {
+        "slug": "bathroom-renovation",
+        "name": "Complete Bathroom Renovation",
+        "shortDescription": "Full-scale transformations blending Boston's architectural heritage with modern luxury.",
+        "description": "From Back Bay brownstones to Newton Colonials, we handle every detail of your bathroom overhaul. Our process begins with assessing your home's unique structure - whether it's dealing with the uneven floors of a triple-decker or preserving original tilework in a Victorian.\n\nWe specialize in moisture-resistant materials that stand up to Boston's humid summers and prevent winter condensation damage. For historic homes, we replicate period-appropriate moldings and source vintage-style fixtures. Modern builds receive sleek, space-efficient designs with radiant floor heating to combat chilly mornings.\n\nEvery project includes our signature waterproofing system, crucial for preventing leaks in century-old plumbing systems. We coordinate all necessary permits, including Boston Landmarks Commission approvals when working on protected properties.",
+        "process": [
+          "Step 1: Historic assessment & moisture evaluation",
+          "Step 2: Custom design preserving architectural integrity",
+          "Step 3: Climate-appropriate material selection",
+          "Step 4: Precision installation with lifetime craftsmanship warranty"
+        ],
+        "benefits": [
+          "Increased home value in Boston's competitive market",
+          "Mold-resistant materials for humid environments",
+          "Energy-efficient fixtures that reduce utility costs",
+          "ADA-compliant options for multi-generational homes"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle plumbing in older Boston homes?",
+            "answer": "We carefully evaluate existing systems and recommend either preservation or replacement with freeze-resistant PEX piping. For historic properties, we maintain original layouts while upgrading functionality."
+          },
+          {
+            "question": "What's your timeline for a typical Cambridge renovation?",
+            "answer": "Most complete renovations take 3-5 weeks. Victorian homes may require additional time for custom millwork replication and historic commission approvals."
+          },
+          {
+            "question": "Do you work with small Back Bay bathrooms?",
+            "answer": "Absolutely. We specialize in space-maximizing designs for compact bathrooms, using features like wall-mounted vanities and recessed storage to maintain historic proportions."
+          }
+        ]
+      },
+      {
+        "slug": "tub-to-shower",
+        "name": "Tub to Shower Conversion",
+        "shortDescription": "Safe, stylish transitions perfect for Boston's aging brownstones.",
+        "description": "Converting outdated tubs to walk-in showers addresses two Boston-specific challenges: accessibility in multi-story homes and moisture control in tight spaces. Our curbless designs eliminate tripping hazards while preventing water damage to original hardwood floors below.\n\nFor Victorian homes, we create shower surrounds that mimic traditional wainscoting. In mid-century builds, we install sleek glass panels that maximize natural light. Every conversion includes our proprietary waterproofing membrane - essential protection against the condensation that plagues unventilated bathrooms in winter.\n\nWe source local materials when possible, including Massachusetts-made tile for historic renovations. Grab bars are integrated seamlessly into the design, with options that complement both clawfoot tub conversions and modern spa retreats.",
+        "process": [
+          "Step 1: Structural evaluation of floor joists",
+          "Step 2: Drainage slope planning for proper water flow",
+          "Step 3: Custom shower base construction",
+          "Step 4: Safety feature integration"
+        ],
+        "benefits": [
+          "Reduces fall risk on original narrow staircases",
+          "Prevents moisture damage to antique woodwork",
+          "Creates visual continuity in historic homes",
+          "Low-maintenance surfaces resist hard water stains"
+        ],
+        "faq": [
+          {
+            "question": "Will removing my tub affect resale value?",
+            "answer": "In Boston's competitive market, we recommend keeping at least one tub if possible. For one-bath homes, we can install convertible systems that serve both purposes."
+          },
+          {
+            "question": "How do you prevent leaks in old floorboards?",
+            "answer": "Our 5-layer waterproofing system includes a bonded drainage mat and membrane that extends up walls. We reinforce subfloors before installation to prevent movement."
+          }
+        ]
+      },
+      {
+        "slug": "historic-tile-restoration",
+        "name": "Historic Tile Restoration",
+        "shortDescription": "Breathing new life into Boston's original bathroom surfaces.",
+        "description": "Many Boston-area homes feature irreplaceable tilework from the late 19th to early 20th century. Our restoration specialists carefully clean, repair, and re-grout these treasures using period-correct techniques and materials.\n\nFor Back Bay brownstones, we match original encaustic tile patterns using archival research and custom fabrication. In Cambridge Victorians, we source reproduction subway tile with authentic edge profiles. Damaged sections are either meticulously repaired or replaced with carefully aged matching pieces.\n\nOur restoration process includes installing modern waterproofing behind historic surfaces - a crucial step missing from original installations. We preserve beautiful details while ensuring walls can handle today's steamy showers. The result maintains architectural integrity without sacrificing daily functionality.",
+        "process": [
+          "Step 1: Tile authentication and period research",
+          "Step 2: Gentle cleaning with pH-balanced solutions",
+          "Step 3: Crack repair with epoxy injection",
+          "Step 4: Custom grout mixing to match historic formulas"
+        ],
+        "benefits": [
+          "Preserves original architectural character",
+          "Increases historical home value significantly",
+          "Uses breathable materials to prevent moisture traps",
+          "Maintains eligibility for historic tax credits"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my 1920s hexagonal floor tile?",
+            "answer": "Yes, we maintain relationships with specialty manufacturers who recreate early 20th century tile patterns. For rare designs, we can make molds from existing pieces."
+          },
+          {
+            "question": "How do you clean century-old grout safely?",
+            "answer": "We use gentle, non-abrasive techniques that lift stains without damaging soft historic mortar. For severely deteriorated grout, we carefully remove and replace it with lime-based formulas matching the original."
+          }
+        ]
+      },
+      {
+        "slug": "universal-design",
+        "name": "Universal Design Bathrooms",
+        "shortDescription": "Future-proof baths for Boston's multi-generational households.",
+        "description": "As Boston's population ages, we're helping families modify bathrooms for long-term comfort and safety. Our designs blend accessibility features seamlessly into period-appropriate aesthetics - no institutional looks in your Victorian or Colonial.\n\nWe install comfort-height toilets that respect original plumbing locations, and create walk-in showers with hidden structural supports for future grab bars. Floating vanities provide knee space while mimicking traditional furniture styles. For homes with children, we include convertible elements that adapt as needs change.\n\nEvery universal design project begins with assessing household needs and the home's structural limitations. In triple-deckers, we reinforce floors for potential lift systems. In condos, we maximize maneuverability within strict footprints. The result is beautiful today, functional for decades.",
+        "process": [
+          "Step 1: Lifestyle and mobility assessment",
+          "Step 2: Space planning with future needs in mind",
+          "Step 3: Discreet safety feature integration",
+          "Step 4: ADA-compliant fixture installation"
+        ],
+        "benefits": [
+          "Allows aging in place in cherished homes",
+          "Reduces renovation needs down the road",
+          "Maintains resale value across demographics",
+          "Prevents injuries on Boston's icy winter mornings"
+        ],
+        "faq": [
+          {
+            "question": "Can universal design work in my small Beacon Hill bathroom?",
+            "answer": "Absolutely. We specialize in compact accessible layouts, using space-saving solutions like pocket doors and corner sinks to maintain circulation space."
+          },
+          {
+            "question": "Do accessibility features look obviously 'medical'?",
+            "answer": "Not ours. We use designer grab bars that double as towel warmers, and select fixtures that complement your home's era. Most visitors won't realize it's an accessible space."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-primary-suites",
+        "name": "Luxury Primary Suites",
+        "shortDescription": "Spa-inspired retreats worthy of Boston's finest homes.",
+        "description": "For Jamaica Plain's Victorian estates and Quincy's waterfront condos, we create breathtaking primary baths that marry indulgence with practicality. Our designs consider New England's climate at every turn - from heated floors to combat chilly mornings to humidity-sensing ventilation systems.\n\nMaterials are chosen for both beauty and resilience: local granite resists salt air corrosion, while porcelain tile stands up to snow-melt moisture. We create custom vanities from reclaimed Massachusetts wood, topped with leathered finishes that hide water spots.\n\nThe spa experience extends to thoughtful details like toe-kick heaters and steam shower systems with Boston skyline views. For historic properties, we design discreet modern comforts that don't compete with original architecture. Every luxury bathroom receives our comprehensive 10-year systems warranty.",
+        "process": [
+          "Step 1: Lifestyle consultation and wishlist development",
+          "Step 2: Climate-appropriate material selection",
+          "Step 3: Custom millwork and stone fabrication",
+          "Step 4: Smart home integration"
+        ],
+        "benefits": [
+          "Creates a private oasis in urban settings",
+          "High-end materials increase property value",
+          "Climate-control features enhance year-round comfort",
+          "Professional-grade ventilation prevents mold"
+        ],
+        "faq": [
+          {
+            "question": "Can you install a steam shower in my loft conversion?",
+            "answer": "Yes, we've retrofitted steam systems in many converted Boston industrial buildings. We assess your existing plumbing and electrical capacity to ensure proper performance."
+          },
+          {
+            "question": "How do you prevent condensation in all-glass showers?",
+            "answer": "Our luxury showers include heated glass panels and concealed drain systems that minimize surface moisture. We also install humidity-controlled exhaust fans timed to shower duration."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Historic Tile Restoration",
+        "text": "Onyx miraculously saved the original 1897 floral tiles in my South End brownstone. They matched missing pieces so perfectly even the historical commission approved. Two winters later, no cracks from freeze-thaw cycles.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Marcus L.",
+        "rating": 5,
+        "service": "Tub to Shower Conversion",
+        "text": "Our Cambridge triple-decker's tiny bathroom is now a spacious shower with built-in seat and grab bars that look like art deco decor. The waterproofing held up when our upstairs neighbor's pipe burst last winter.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Luxury Primary Suite",
+        "text": "The radiant heated floors in our Newton Colonial's new bathroom make Boston winters bearable. Onyx sourced stunning blue granite that echoes our backyard pond and stands up to our kids' splashing.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "David T.",
+        "rating": 5,
+        "service": "Universal Design Bathroom",
+        "text": "After my father's stroke, Onyx transformed our Quincy ranch's bathroom into an accessible space that doesn't feel clinical. The curbless shower and motion-activated lighting have prevented several falls.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Aisha B.",
+        "rating": 5,
+        "service": "Complete Bathroom Renovation",
+        "text": "Our Beacon Hill condo's awkward 1980s bathroom is now a period-appropriate masterpiece with modern function. They replicated original molding details while adding hidden storage we desperately needed.",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "James P.",
+        "rating": 5,
+        "service": "Tub to Shower Conversion",
+        "text": "The glass shower enclosure Onyx installed in our Brookline Arts and Crafts home stays crystal clear despite hard water. Their ventilation solution finally stopped the peeling paint we'd battled for years.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boston Bathroom Remodeling | Historic & Modern Designs",
+        "description": "Expert bath renovations preserving Boston's architectural heritage with climate-smart solutions. Serving Cambridge, Newton, Brookline & Quincy since 2011."
+      },
+      "about": {
+        "title": "About Our Boston Bathroom Remodeling Company",
+        "description": "Learn how Onyx Bath Remodel combines historic preservation with modern functionality for Boston-area homes. Local craftsmanship since 2011."
+      },
+      "services": {
+        "title": "Boston Bathroom Remodeling Services | Custom Solutions",
+        "description": "From tub conversions to luxury primary suites, we deliver bath remodels designed for Boston's climate and architecture. Free consultations available."
+      },
+      "contact": {
+        "title": "Contact Boston's Bathroom Remodeling Experts",
+        "description": "Ready to transform your bathroom? Reach out to Onyx Bath Remodel for Cambridge, Newton, Brookline & Quincy projects. Quick response guaranteed."
+      },
+      "reviews": {
+        "title": "Boston Bathroom Remodeling Reviews | Happy Clients",
+        "description": "Read verified reviews from homeowners across Boston who transformed their bathrooms with Onyx. Real projects, real results."
+      },
+      "service-areas": {
+        "title": "Boston-Area Bathroom Remodeling Service Locations",
+        "description": "Serving Cambridge, Newton, Brookline, Quincy and surrounding communities with climate-appropriate bath renovations since 2011."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 14,
+      "projectsCompleted": "850+",
+      "satisfaction": "98%",
+      "teamSize": "22"
+    },
+    "serviceAreas": [
+      {
+        "city": "Cambridge",
+        "slug": "cambridge-ma",
+        "state": "MA",
+        "content": "Onyx Bath Remodel proudly serves the historic city of Cambridge, home to over 118,000 residents and renowned institutions like Harvard University. Many Cambridge homes feature beautiful Victorian architecture, which presents unique opportunities for bathroom renovations that blend modern amenities with period-appropriate charm. Our team understands how to work with the challenges of older homes, including updating plumbing systems while preserving character. The cold, snowy winters here—often accompanied by Nor'easters—mean bathrooms need durable, moisture-resistant materials that can withstand harsh New England weather while providing a cozy retreat.",
+        "localContext": "Cambridge is known for its Victorian homes near Harvard and a vibrant academic atmosphere.",
+        "nearbyAreas": [
+          "Somerville",
+          "Arlington",
+          "Watertown"
+        ]
+      },
+      {
+        "city": "Newton",
+        "slug": "newton-ma",
+        "state": "MA",
+        "content": "Newton's upscale neighborhoods, featuring Colonial and Tudor-style homes, demand bathroom remodels that match their refined aesthetic. With a population of about 88,000, Newton residents appreciate high-end finishes and timeless designs. Our team at Onyx Bath Remodel specializes in creating luxurious spa-like bathrooms that complement the architectural integrity of these homes. Like much of the Boston area, Newton experiences cold, snowy winters with Nor'easters, so we prioritize materials that resist moisture damage and provide warmth underfoot, such as radiant heating systems and premium tile work.",
+        "localContext": "Newton is characterized by its upscale Colonial and Tudor homes and a strong sense of community.",
+        "nearbyAreas": [
+          "Wellesley",
+          "Waltham",
+          "Needham"
+        ]
+      },
+      {
+        "city": "Brookline",
+        "slug": "brookline-ma",
+        "state": "MA",
+        "content": "Brookline's charming early 20th-century apartment buildings and single-family homes require bathroom renovations that balance historical details with modern functionality. Serving Brookline's 63,000 residents, Onyx Bath Remodel excels at maximizing space in smaller bathrooms common in these older structures. The cold, snowy winters—including frequent Nor'easters—mean we focus on preventing moisture issues while enhancing comfort. Whether updating a vintage 1920s bathroom or modernizing a pre-war apartment, we ensure designs respect Brookline's architectural heritage while introducing contemporary conveniences.",
+        "localContext": "Brookline features early 1900s-1930s apartment buildings and homes with a mix of urban and suburban living.",
+        "nearbyAreas": [
+          "Brighton",
+          "Allston",
+          "Jamaica Plain"
+        ]
+      },
+      {
+        "city": "Quincy",
+        "slug": "quincy-ma",
+        "state": "MA",
+        "content": "Quincy's mid-century Cape Cod and Colonial homes, housing over 101,000 residents, often benefit from bathroom remodels that improve space utilization. At Onyx Bath Remodel, we understand the unique layout challenges of 1950s-60s homes and specialize in reconfiguring bathrooms for better flow. Quincy's cold, snowy winters—including Nor'easters—demand materials that resist moisture damage, which is why we recommend durable tiles, waterproofing solutions, and energy-efficient fixtures. Many Quincy homeowners seek to maintain their home's original character while upgrading to modern comforts, and we excel at striking that balance.",
+        "localContext": "Quincy is known for its 1950s-60s Cape Cod and Colonial homes and coastal New England charm.",
+        "nearbyAreas": [
+          "Braintree",
+          "Weymouth",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Somerville",
+        "slug": "somerville-ma",
+        "state": "MA",
+        "content": "Somerville's dense neighborhoods, filled with historic multi-family homes and modern condos, require creative bathroom solutions from Onyx Bath Remodel. With a population similar to Cambridge, Somerville homeowners often need space-saving designs that don't sacrifice style. The cold winters and Nor'easters common here mean we prioritize moisture-resistant materials and efficient heating. Whether updating a Victorian-era bathroom or adding a second bath to a converted triple-decker, we tailor our remodels to Somerville's eclectic mix of old and new.",
+        "localContext": "Somerville combines historic multi-family homes with a thriving arts and dining scene.",
+        "nearbyAreas": [
+          "Medford",
+          "Arlington",
+          "Cambridge"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-ma",
+        "state": "MA",
+        "content": "Arlington's blend of classic New England homes and newer constructions makes it an ideal service area for Onyx Bath Remodel. Many of Arlington's 45,000 residents live in charming Capes, Colonials, and Arts & Crafts-style homes that benefit from bathroom updates respecting their original character. The cold snowy winters—including Nor'easters—mean we focus on preventing moisture damage while improving energy efficiency. From preserving vintage tile work to installing modern walk-in showers, we help Arlington homeowners create bathrooms that are both functional and faithful to their home's architecture.",
+        "localContext": "Arlington features a mix of classic Capes, Colonials, and Arts & Crafts homes with strong community roots.",
+        "nearbyAreas": [
+          "Lexington",
+          "Belmont",
+          "Medford"
+        ]
+      },
+      {
+        "city": "Watertown",
+        "slug": "watertown-ma",
+        "state": "MA",
+        "content": "Watertown's diverse housing stock, ranging from historic brick apartments to mid-century ranches, presents varied opportunities for Onyx Bath Remodel. Serving about 35,000 residents, we specialize in bathroom renovations that maximize space in Watertown's smaller homes while accommodating the cold, snowy winters and Nor'easters. Many homeowners here seek to update 1970s-era bathrooms or add modern touches to older properties while maintaining their neighborhood's character. Our expertise in space-efficient layouts and moisture-resistant materials makes us Watertown's premier bathroom remodeler.",
+        "localContext": "Watertown offers a mix of historic brick buildings, mid-century homes, and modern condos along the Charles River.",
+        "nearbyAreas": [
+          "Waltham",
+          "Newton",
+          "Belmont"
+        ]
+      },
+      {
+        "city": "Waltham",
+        "slug": "waltham-ma",
+        "state": "MA",
+        "content": "Waltham's industrial-chic lofts and classic New England homes make it a fascinating service area for Onyx Bath Remodel. With about 63,000 residents, Waltham presents unique bathroom remodeling opportunities in converted mill buildings as well as traditional single-family homes. The cold winters and Nor'easters here require durable, moisture-resistant materials that can handle temperature fluctuations. Whether creating a sleek urban bathroom in a loft or restoring period details in a Victorian, we bring Waltham homeowners bathroom designs that reflect their diverse architectural surroundings.",
+        "localContext": "Waltham blends historic mill buildings with suburban neighborhoods and a vibrant downtown.",
+        "nearbyAreas": [
+          "Lexington",
+          "Newton",
+          "Watertown"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "bathroom-renovation": "/images/service-bathroom-renovation.webp",
+      "universal-design": "/images/service-universal-design.webp",
+      "luxury-primary-suites": "/images/service-luxury-primary-suites.webp",
+      "tub-to-shower": "/images/service-tub-to-shower.webp",
+      "historic-tile-restoration": "/images/service-historic-tile-restoration.webp"
+    },
+    "servicesResponsive": {
+      "bathroom-renovation": {
+        "src": "/images/service-bathroom-renovation.webp",
+        "srcset": "/images/service-bathroom-renovation-400w.webp 400w, /images/service-bathroom-renovation-800w.webp 800w, /images/service-bathroom-renovation-1200w.webp 1200w, /images/service-bathroom-renovation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "universal-design": {
+        "src": "/images/service-universal-design.webp",
+        "srcset": "/images/service-universal-design-400w.webp 400w, /images/service-universal-design-800w.webp 800w, /images/service-universal-design-1200w.webp 1200w, /images/service-universal-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-primary-suites": {
+        "src": "/images/service-luxury-primary-suites.webp",
+        "srcset": "/images/service-luxury-primary-suites-400w.webp 400w, /images/service-luxury-primary-suites-800w.webp 800w, /images/service-luxury-primary-suites-1200w.webp 1200w, /images/service-luxury-primary-suites.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tub-to-shower": {
+        "src": "/images/service-tub-to-shower.webp",
+        "srcset": "/images/service-tub-to-shower-400w.webp 400w, /images/service-tub-to-shower-800w.webp 800w, /images/service-tub-to-shower-1200w.webp 1200w, /images/service-tub-to-shower.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-tile-restoration": {
+        "src": "/images/service-historic-tile-restoration.webp",
+        "srcset": "/images/service-historic-tile-restoration-400w.webp 400w, /images/service-historic-tile-restoration-800w.webp 800w, /images/service-historic-tile-restoration-1200w.webp 1200w, /images/service-historic-tile-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
